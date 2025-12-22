@@ -1,0 +1,369 @@
+{
+  "games_played": 23,
+  "moves_history": [
+    {
+      "from": [
+        6,
+        4
+      ],
+      "to": [
+        4,
+        4
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 1
+    },
+    {
+      "from": [
+        4,
+        4
+      ],
+      "to": [
+        3,
+        3
+      ],
+      "piece": "pawn",
+      "capture": true,
+      "move_num": 2
+    },
+    {
+      "from": [
+        6,
+        3
+      ],
+      "to": [
+        4,
+        3
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 3
+    },
+    {
+      "from": [
+        7,
+        6
+      ],
+      "to": [
+        5,
+        5
+      ],
+      "piece": "knight",
+      "capture": false,
+      "move_num": 4
+    },
+    {
+      "from": [
+        6,
+        4
+      ],
+      "to": [
+        4,
+        4
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 1
+    },
+    {
+      "from": [
+        6,
+        3
+      ],
+      "to": [
+        4,
+        3
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 2
+    },
+    {
+      "from": [
+        6,
+        4
+      ],
+      "to": [
+        5,
+        4
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 1
+    },
+    {
+      "from": [
+        6,
+        3
+      ],
+      "to": [
+        4,
+        3
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 2
+    },
+    {
+      "from": [
+        5,
+        4
+      ],
+      "to": [
+        4,
+        4
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 3
+    },
+    {
+      "from": [
+        4,
+        4
+      ],
+      "to": [
+        3,
+        4
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 4
+    },
+    {
+      "from": [
+        6,
+        1
+      ],
+      "to": [
+        5,
+        0
+      ],
+      "piece": "pawn",
+      "capture": true,
+      "move_num": 5
+    },
+    {
+      "from": [
+        6,
+        4
+      ],
+      "to": [
+        4,
+        4
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 1
+    },
+    {
+      "from": [
+        6,
+        4
+      ],
+      "to": [
+        4,
+        4
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 1
+    },
+    {
+      "from": [
+        4,
+        4
+      ],
+      "to": [
+        3,
+        3
+      ],
+      "piece": "pawn",
+      "capture": true,
+      "move_num": 2
+    },
+    {
+      "from": [
+        6,
+        4
+      ],
+      "to": [
+        4,
+        4
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 1
+    },
+    {
+      "from": [
+        4,
+        4
+      ],
+      "to": [
+        3,
+        3
+      ],
+      "piece": "pawn",
+      "capture": true,
+      "move_num": 2
+    },
+    {
+      "from": [
+        6,
+        3
+      ],
+      "to": [
+        4,
+        3
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 3
+    },
+    {
+      "from": [
+        6,
+        4
+      ],
+      "to": [
+        4,
+        4
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 1
+    },
+    {
+      "from": [
+        7,
+        3
+      ],
+      "to": [
+        5,
+        5
+      ],
+      "piece": "queen",
+      "capture": false,
+      "move_num": 2
+    },
+    {
+      "from": [
+        5,
+        5
+      ],
+      "to": [
+        1,
+        5
+      ],
+      "piece": "queen",
+      "capture": true,
+      "move_num": 3
+    },
+    {
+      "from": [
+        1,
+        5
+      ],
+      "to": [
+        0,
+        4
+      ],
+      "piece": "queen",
+      "capture": true,
+      "move_num": 4
+    },
+    {
+      "from": [
+        6,
+        4
+      ],
+      "to": [
+        4,
+        4
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 1
+    },
+    {
+      "from": [
+        4,
+        4
+      ],
+      "to": [
+        3,
+        3
+      ],
+      "piece": "pawn",
+      "capture": true,
+      "move_num": 2
+    },
+    {
+      "from": [
+        6,
+        3
+      ],
+      "to": [
+        4,
+        3
+      ],
+      "piece": "pawn",
+      "capture": false,
+      "move_num": 3
+    },
+    {
+      "from": [
+        4,
+        3
+      ],
+      "to": [
+        3,
+        4
+      ],
+      "piece": "pawn",
+      "capture": true,
+      "move_num": 4
+    }
+  ],
+  "piece_preferences": {
+    "pawn": 21,
+    "knight": 1,
+    "bishop": 0,
+    "rook": 0,
+    "queen": 3,
+    "king": 0
+  },
+  "average_thinking_time": 2.0,
+  "mistake_rate": 0.3,
+  "aggression_level": 0.495,
+  "wins": 1,
+  "losses": 0,
+  "opening_moves": {
+    "move_1": {
+      "(6, 4)->(4, 4)": 7,
+      "(6, 4)->(5, 4)": 1
+    },
+    "move_2": {
+      "(4, 4)->(3, 3)": 4,
+      "(6, 3)->(4, 3)": 2,
+      "(7, 3)->(5, 5)": 1
+    },
+    "move_3": {
+      "(6, 3)->(4, 3)": 3,
+      "(5, 4)->(4, 4)": 1,
+      "(5, 5)->(1, 5)": 1
+    },
+    "move_4": {
+      "(7, 6)->(5, 5)": 1,
+      "(4, 4)->(3, 4)": 1,
+      "(1, 5)->(0, 4)": 1,
+      "(4, 3)->(3, 4)": 1
+    },
+    "move_5": {
+      "(6, 1)->(5, 0)": 1
+    }
+  },
+  "last_updated": "2025-12-21 20:28:05"
+}
