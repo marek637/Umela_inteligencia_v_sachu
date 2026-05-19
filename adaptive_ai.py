@@ -48,7 +48,6 @@ class PlayerProfile:
                     self.wins = data.get('wins', 0)
                     self.losses = data.get('losses', 0)
                     self.opening_moves = data.get('opening_moves', {})
-                    print(f"✓ Profil načítaný: {self.games_played} hier, {len(self.moves_history)} ťahov")
             except Exception as e:
                 print(f"⚠ Chyba pri načítaní profilu: {e}, vytváram nový")
     
@@ -68,7 +67,6 @@ class PlayerProfile:
         
         with open(self.filename, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
-        print("✓ Profil uložený")
     
     def record_move(self, from_pos, to_pos, piece_type, was_capture, move_number):
         move_data = {
