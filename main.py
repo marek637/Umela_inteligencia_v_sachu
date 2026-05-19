@@ -77,7 +77,6 @@ class ChessGame:
             image = pygame.image.load("images/menu_image.png")
             return pygame.transform.scale(image, (TOTAL_WIDTH, TOTAL_HEIGHT))
         except:
-            print("Súbor 'images/menu_image.png' sa nenašiel, použije sa tmavé pozadie")
             return None
     
     def draw_menu(self):
@@ -104,6 +103,7 @@ class ChessGame:
         
         button_y = 250
         button_width = 280
+        
         button_height = 80
         button_spacing = 40
         
